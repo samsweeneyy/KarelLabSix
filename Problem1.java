@@ -12,7 +12,10 @@ public class Problem1 extends Robot
     }
     
     public void sortBeepers() {
-        
+        start();
+        countBeepers();
+        arrangeArray();
+        placeBeepers();
     }
    
 }
